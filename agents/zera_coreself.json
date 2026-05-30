@@ -1,11 +1,11 @@
 {
   "innate": {
     "pain_physical": 0.0,
-    "pain_social": 0.05,
+    "pain_social": 0.010000000000000002,
     "pleasure_sensory": 0.0,
     "pleasure_social": 0.0,
-    "uncertainty": 1.0,
-    "energy": 0.5
+    "uncertainty": 0.98,
+    "energy": 0.56
   },
   "preferences": {},
   "boundaries": {},
@@ -90,6 +90,28 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-05-30T23:54:58.511617"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent resting in the_sanctuary",
+      "outcome": {
+        "energy": 0.03,
+        "pain_social": -0.02,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-31T05:32:21.364889"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent resting in the_sanctuary",
+      "outcome": {
+        "energy": 0.03,
+        "pain_social": -0.02,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-31T07:58:46.224088"
     }
   ]
 }

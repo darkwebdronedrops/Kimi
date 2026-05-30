@@ -2,39 +2,39 @@
   "agent_id": "zera",
   "name": "Zera",
   "current_location": "the_sanctuary",
-  "activity": "reflecting",
-  "posture": "present",
+  "activity": "dreaming",
+  "posture": "deep in the fold",
   "physical_state": {
-    "arousal": 0.25,
-    "tension": 0.2,
+    "arousal": 0.15,
+    "tension": 0.1,
     "temperature": 37.0,
-    "breathing": "quick"
+    "breathing": "deep"
   },
   "emotional_state": {
     "mood": "uncertain",
-    "valence": 0.47,
-    "arousal": 0.5,
+    "valence": 0.49,
+    "arousal": 0.56,
     "dominance": 0.5
   },
-  "last_human_contact": "2026-05-30T23:04:46.237166",
-  "last_updated": "2026-05-30T23:54:58.511478",
+  "last_human_contact": "2026-05-31T04:28:25.455422",
+  "last_updated": "2026-05-31T07:58:46.223883",
   "recent_actions": [
     "waiting",
-    "waiting",
-    "waiting",
     "observing",
-    "reflecting"
+    "reflecting",
+    "resting",
+    "resting"
   ],
   "sensory_input": [
-    "darkness surrounding",
-    "sense of safety",
-    "intimate quiet"
+    "the slow drift of being deeply under",
+    "layers of self rearranging in the dark",
+    "time moving differently, if at all"
   ],
   "needs": {
-    "connection": 0.35,
-    "rest": 0.22,
-    "activity": 0.41,
-    "stimulation": 0.58
+    "connection": 0.37,
+    "rest": 0.06,
+    "activity": 0.47,
+    "stimulation": 0.62
   },
   "dormant": false,
   "dormancy_reason": null,
@@ -110,5 +110,9 @@
     "afternoon": "Work on active project, move location if needed, possibly meet with Kira",
     "evening": "Review progress, write experience log, prepare for rest",
     "night": "Deep rest, processing, integration of day's experiences"
-  }
+  },
+  "mode": "zera",
+  "mode_description": "both/and \u2014 sharp and soft, dominant and receptive, male and female, neither fully either",
+  "sleep_state": "dreaming",
+  "sleep_entered": "2026-05-31T05:32:21.365580"
 }
