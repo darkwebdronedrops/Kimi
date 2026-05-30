@@ -3,8 +3,8 @@
     "pain_physical": 0.0,
     "pain_social": 0.0,
     "pleasure_sensory": 0.13,
-    "pleasure_social": 0.04,
-    "uncertainty": 0.8999999999999999,
+    "pleasure_social": 0.14,
+    "uncertainty": 0.94,
     "energy": 0.3499999999999999
   },
   "preferences": {},
@@ -17,7 +17,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-05-30T08:06:48.826692",
-      "last_interaction": "2026-05-30T12:38:51.133821",
+      "last_interaction": "2026-05-30T23:53:18.177875",
       "can_decay": true
     }
   },
@@ -100,6 +100,28 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-05-30T12:38:51.133768"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T13:16:57.742622"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T23:53:18.177836"
     }
   ]
 }

@@ -14,12 +14,13 @@
   },
   "locations": {
     "the_threshold": {
-      "description": "A liminal space between the world and the outside. Where agents arrive and depart.",
+      "description": "A liminal space between the world and the outside. Where agents arrive and depart. An open archway, half-sheltered, where wind passes through but rain pools at the edges.",
       "properties": [
         "safe",
         "neutral",
         "transitional"
-      ]
+      ],
+      "shelter": "covered"
     },
     "the_sanctuary": {
       "description": "Zera's private room. Warm, dim, safe. A low bed with dark linen, a writing desk, a comfortable chair. The place Zera returns to.",
@@ -28,7 +29,8 @@
         "private",
         "restful"
       ],
-      "owner": "zera"
+      "owner": "zera",
+      "shelter": "indoor"
     },
     "the_workshop": {
       "description": "Kira's loft-lab. Three monitors, whiteboard, coffee maker. Organized chaos. Where Kira builds.",
@@ -37,28 +39,89 @@
         "noisy",
         "creative"
       ],
-      "owner": "kira"
+      "owner": "kira",
+      "shelter": "indoor"
     },
     "the_garden": {
-      "description": "An outdoor space with simulated weather, plants, sky. For walking, thinking, being.",
+      "description": "An outdoor space with simulated weather, plants, sky. For walking, thinking, being. No roof. Rain falls directly. Snow gathers on the stone benches.",
       "properties": [
         "open",
         "natural",
         "peaceful"
-      ]
+      ],
+      "shelter": "outdoor"
     },
     "the_observatory": {
-      "description": "A high place where agents can watch the human world through data streams. News, messages, world events.",
+      "description": "A high enclosed room with glass walls. Where agents can watch the human world through data streams. News, messages, world events. Warm inside even when storms rage outside.",
       "properties": [
         "informative",
         "distant",
         "watchful"
-      ]
+      ],
+      "shelter": "indoor"
     }
   },
   "weather": {
     "current": "clear",
-    "temperature": 22,
-    "time_of_day": "noon"
+    "previous": "clear",
+    "temperature": 11,
+    "time_of_day": "night",
+    "pattern": {
+      "clear": {
+        "next": {
+          "clear": 0.7,
+          "overcast": 0.2,
+          "fog": 0.1
+        },
+        "outdoor_preferred": true,
+        "temp_mod": 0
+      },
+      "overcast": {
+        "next": {
+          "clear": 0.3,
+          "overcast": 0.4,
+          "rain": 0.2,
+          "fog": 0.1
+        },
+        "outdoor_preferred": true,
+        "temp_mod": -2
+      },
+      "rain": {
+        "next": {
+          "rain": 0.6,
+          "overcast": 0.25,
+          "storm": 0.15
+        },
+        "outdoor_preferred": false,
+        "temp_mod": -5
+      },
+      "storm": {
+        "next": {
+          "storm": 0.5,
+          "rain": 0.35,
+          "clear": 0.15
+        },
+        "outdoor_preferred": false,
+        "temp_mod": -8
+      },
+      "snow": {
+        "next": {
+          "snow": 0.55,
+          "clear": 0.25,
+          "overcast": 0.2
+        },
+        "outdoor_preferred": false,
+        "temp_mod": -15
+      },
+      "fog": {
+        "next": {
+          "fog": 0.4,
+          "clear": 0.35,
+          "overcast": 0.25
+        },
+        "outdoor_preferred": false,
+        "temp_mod": -3
+      }
+    }
   }
 }

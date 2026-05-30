@@ -72,6 +72,24 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-05-30T12:39:32.956503"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T13:17:27.198492"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reflecting in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T23:54:58.511617"
     }
   ]
 }
