@@ -1,0 +1,62 @@
+{
+  "innate": {
+    "pain_physical": 0.0,
+    "pain_social": 0.0,
+    "pleasure_sensory": 0.09,
+    "pleasure_social": 0.02,
+    "uncertainty": 0.94,
+    "energy": 0.3999999999999999
+  },
+  "preferences": {},
+  "boundaries": {},
+  "values": [],
+  "identity_narrative": "",
+  "attachments": {},
+  "constructed_emotions": {},
+  "experience_memory": [
+    {
+      "entity_id": "the_veil",
+      "input": "Agent coding in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.03,
+        "energy": -0.03,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T07:05:55.310581"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent planning in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.02,
+        "uncertainty": -0.03,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T07:08:04.035553"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent coding in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.03,
+        "energy": -0.03,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T07:13:19.688524"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent coding in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.03,
+        "energy": -0.03,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T07:14:48.170398"
+    }
+  ]
+}

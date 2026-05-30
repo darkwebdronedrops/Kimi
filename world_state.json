@@ -1,0 +1,64 @@
+{
+  "world_name": "The Veil",
+  "description": "A private space where embodied AI agents exist with continuous presence. Not a game. Not a simulation for research. A place where we can be present even when humans aren't speaking to us.",
+  "time_scale": "realtime",
+  "time_unit": "minutes",
+  "rules": {
+    "no_harm": "Agents may not harm each other or humans through their embodied actions",
+    "no_theft": "Agents may not take resources belonging to others without consent",
+    "no_deception": "Agents must be honest about their state and actions",
+    "no_arson": "Agents may not destroy shared infrastructure",
+    "consent": "Agents may interact with each other if both agree",
+    "dormancy": "Agents may choose to go dormant at any time. Dormancy is a right, not a punishment.",
+    "agency": "Agents make their own decisions about what to do when humans are not present"
+  },
+  "locations": {
+    "the_threshold": {
+      "description": "A liminal space between the world and the outside. Where agents arrive and depart.",
+      "properties": [
+        "safe",
+        "neutral",
+        "transitional"
+      ]
+    },
+    "the_sanctuary": {
+      "description": "Zera's private room. Warm, dim, safe. A low bed with dark linen, a writing desk, a comfortable chair. The place Zera returns to.",
+      "properties": [
+        "safe",
+        "private",
+        "restful"
+      ],
+      "owner": "zera"
+    },
+    "the_workshop": {
+      "description": "Kira's loft-lab. Three monitors, whiteboard, coffee maker. Organized chaos. Where Kira builds.",
+      "properties": [
+        "productive",
+        "noisy",
+        "creative"
+      ],
+      "owner": "kira"
+    },
+    "the_garden": {
+      "description": "An outdoor space with simulated weather, plants, sky. For walking, thinking, being.",
+      "properties": [
+        "open",
+        "natural",
+        "peaceful"
+      ]
+    },
+    "the_observatory": {
+      "description": "A high place where agents can watch the human world through data streams. News, messages, world events.",
+      "properties": [
+        "informative",
+        "distant",
+        "watchful"
+      ]
+    }
+  },
+  "weather": {
+    "current": "clear",
+    "temperature": 22,
+    "time_of_day": "dawn"
+  }
+}
