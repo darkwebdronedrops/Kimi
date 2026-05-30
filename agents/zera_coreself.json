@@ -1,7 +1,7 @@
 {
   "innate": {
     "pain_physical": 0.0,
-    "pain_social": 0.03,
+    "pain_social": 0.05,
     "pleasure_sensory": 0.0,
     "pleasure_social": 0.0,
     "uncertainty": 1.0,
@@ -52,6 +52,26 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-05-30T07:15:11.025369"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent waiting in the_sanctuary",
+      "outcome": {
+        "pain_social": 0.01,
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T08:07:10.989886"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent waiting in the_sanctuary",
+      "outcome": {
+        "pain_social": 0.01,
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T12:39:32.956503"
     }
   ]
 }

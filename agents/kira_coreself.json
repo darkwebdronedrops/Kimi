@@ -2,17 +2,38 @@
   "innate": {
     "pain_physical": 0.0,
     "pain_social": 0.0,
-    "pleasure_sensory": 0.09,
-    "pleasure_social": 0.02,
-    "uncertainty": 0.94,
-    "energy": 0.3999999999999999
+    "pleasure_sensory": 0.13,
+    "pleasure_social": 0.04,
+    "uncertainty": 0.8999999999999999,
+    "energy": 0.3499999999999999
   },
   "preferences": {},
   "boundaries": {},
   "values": [],
   "identity_narrative": "",
-  "attachments": {},
-  "constructed_emotions": {},
+  "attachments": {
+    "the_veil": {
+      "strength": 0.3,
+      "trust": 0.3,
+      "respects_autonomy": 1.0,
+      "formed_at": "2026-05-30T08:06:48.826692",
+      "last_interaction": "2026-05-30T12:38:51.133821",
+      "can_decay": true
+    }
+  },
+  "constructed_emotions": {
+    "attachment_the_veil": {
+      "type": "attachment",
+      "target": "the_veil",
+      "baseline": 0.3,
+      "current": 0.3,
+      "metrics": {
+        "positive_ratio": 0.2,
+        "autonomy_respect": 1.0
+      },
+      "formed_at": "2026-05-30T08:06:48.826688"
+    }
+  },
   "experience_memory": [
     {
       "entity_id": "the_veil",
@@ -57,6 +78,28 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-05-30T07:14:48.170398"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent building in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "energy": -0.04,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T08:06:48.826657"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent planning in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.02,
+        "uncertainty": -0.03,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-30T12:38:51.133768"
     }
   ]
 }

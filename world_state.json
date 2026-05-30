@@ -59,6 +59,6 @@
   "weather": {
     "current": "clear",
     "temperature": 22,
-    "time_of_day": "dawn"
+    "time_of_day": "noon"
   }
 }
