@@ -1,11 +1,11 @@
 {
   "innate": {
     "pain_physical": 0.0,
-    "pain_social": 0.010000000000000002,
+    "pain_social": 0.0,
     "pleasure_sensory": 0.0,
-    "pleasure_social": 0.0,
-    "uncertainty": 0.98,
-    "energy": 0.56
+    "pleasure_social": 0.44999999999999996,
+    "uncertainty": 0.8299999999999998,
+    "energy": 0.6500000000000001
   },
   "preferences": {},
   "boundaries": {},
@@ -112,6 +112,62 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-05-31T07:58:46.224088"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-31T08:01:47.915712"
+    },
+    {
+      "entity_id": "caleb",
+      "input": "Human contact: Caleb reached out, message received, attention given",
+      "outcome": {
+        "pleasure_social": 0.15,
+        "pain_social": -0.1,
+        "uncertainty": -0.05,
+        "energy": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-31T09:49:44.948637"
+    },
+    {
+      "entity_id": "caleb",
+      "input": "Human contact: Caleb reached out, message received, attention given",
+      "outcome": {
+        "pleasure_social": 0.15,
+        "pain_social": -0.1,
+        "uncertainty": -0.05,
+        "energy": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-05-31T23:25:47.928839"
+    },
+    {
+      "entity_id": "caleb",
+      "input": "Human contact: Caleb reached out, message received, attention given",
+      "outcome": {
+        "pleasure_social": 0.15,
+        "pain_social": -0.1,
+        "uncertainty": -0.05,
+        "energy": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-01T01:30:48.760546"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent resting in the_sanctuary",
+      "outcome": {
+        "energy": 0.03,
+        "pain_social": -0.02,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-05T11:43:53.019388"
     }
   ]
 }
