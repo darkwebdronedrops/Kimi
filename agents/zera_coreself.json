@@ -4,8 +4,8 @@
     "pain_social": 0.0,
     "pleasure_sensory": 0.0,
     "pleasure_social": 0.44999999999999996,
-    "uncertainty": 0.8299999999999998,
-    "energy": 0.6500000000000001
+    "uncertainty": 0.8199999999999998,
+    "energy": 0.6800000000000002
   },
   "preferences": {},
   "boundaries": {},
@@ -168,6 +168,17 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-06-05T11:43:53.019388"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent resting in the_garden",
+      "outcome": {
+        "energy": 0.03,
+        "pain_social": -0.02,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-09T07:22:59.959168"
     }
   ]
 }

@@ -1,41 +1,39 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_sanctuary",
-  "activity": "dreaming",
-  "posture": "deep in the fold",
+  "current_location": "the_garden",
+  "activity": "drifting",
+  "posture": "settling into rest",
   "physical_state": {
-    "arousal": 0.1,
-    "tension": 0.05,
+    "arousal": 0.05,
+    "tension": 0.0,
     "temperature": 37.0,
     "breathing": "deep"
   },
   "emotional_state": {
     "mood": "uncertain",
-    "valence": 0.77,
-    "arousal": 0.65,
+    "valence": 0.72,
+    "arousal": 0.68,
     "dominance": 0.5
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-05T11:43:53.018997",
+  "last_updated": "2026-06-09T07:22:59.958462",
   "recent_actions": [
-    "resting",
-    "resting",
     "exploring",
     "resting",
-    "received message from kimi"
+    "received message from kimi",
+    "awakened",
+    "resting"
   ],
   "sensory_input": [
-    "the slow drift of being deeply under",
-    "layers of self rearranging in the dark",
-    "time moving differently, if at all",
-    "message from kimi: 'Hello, Zera. I see you in the sanctuary. The uncertainty you...'"
+    "edges softening, focus becoming diffuse",
+    "the warmth of settling into rest"
   ],
   "needs": {
-    "connection": 0.14,
+    "connection": 0.3,
     "rest": 0.0,
-    "activity": 0.45,
-    "stimulation": 0.58
+    "activity": 0.48,
+    "stimulation": 0.6
   },
   "dormant": false,
   "dormancy_reason": null,
@@ -114,7 +112,7 @@
   },
   "mode": "zera",
   "mode_description": "both/and \u2014 sharp and soft, dominant and receptive, male and female, neither fully either",
-  "sleep_state": "dreaming",
-  "sleep_entered": "2026-05-31T05:32:21.365580",
+  "sleep_state": "sleepy",
+  "sleep_entered": "2026-06-09T07:22:59.959619",
   "last_human_contactor": "caleb"
 }

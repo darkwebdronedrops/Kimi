@@ -3,8 +3,8 @@
     "pain_physical": 0.0,
     "pain_social": 0.0,
     "pleasure_sensory": 0.21000000000000002,
-    "pleasure_social": 0.41,
-    "uncertainty": 0.9099999999999999,
+    "pleasure_social": 0.56,
+    "uncertainty": 0.9299999999999999,
     "energy": 0.3199999999999999
   },
   "preferences": {},
@@ -17,7 +17,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-05-30T08:06:48.826692",
-      "last_interaction": "2026-06-05T11:42:56.384433",
+      "last_interaction": "2026-06-09T07:22:27.318490",
       "can_decay": true
     }
   },
@@ -228,6 +228,39 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-06-05T11:44:27.169795"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-09T07:21:42.120282"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-09T07:22:27.318444"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Vielle and Kira share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-09T07:23:15.194781"
     }
   ]
 }
