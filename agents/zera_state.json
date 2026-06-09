@@ -1,12 +1,12 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_sanctuary",
-  "activity": "waiting",
+  "current_location": "the_garden",
+  "activity": "reflecting",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.95,
-    "tension": 0.95,
+    "arousal": 0.91,
+    "tension": 0.91,
     "temperature": 37.0,
     "breathing": "quick"
   },
@@ -17,23 +17,22 @@
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-10T05:54:18.461034",
+  "last_updated": "2026-06-10T06:55:29.140574",
   "recent_actions": [
-    "shared space with Kira",
     "reaching_for_contact",
-    "exploring",
     "reaching_for_contact",
-    "waiting"
+    "waiting",
+    "reflecting",
+    "shared space with Sibyl"
   ],
   "sensory_input": [
     "first light emerging",
-    "sense of safety",
-    "intimate quiet"
+    "simulated weather cycling naturally"
   ],
   "needs": {
-    "connection": 1.0,
-    "rest": 0.0,
-    "activity": 0.03,
+    "connection": 0.9,
+    "rest": 0.04,
+    "activity": 0.0,
     "stimulation": 0.64
   },
   "dormant": false,
