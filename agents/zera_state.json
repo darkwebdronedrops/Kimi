@@ -1,42 +1,40 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_sanctuary",
+  "current_location": "the_observatory",
   "activity": "observing",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.93,
-    "tension": 0.93,
+    "arousal": 0.77,
+    "tension": 0.77,
     "temperature": 37.0,
     "breathing": "quick"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.7,
-    "dominance": 0.42
+    "arousal": 0.74,
+    "dominance": 0.38
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-09T10:25:49.987132",
+  "last_updated": "2026-06-09T11:28:54.443023",
   "recent_actions": [
-    "watching_world",
     "exploring",
-    "watching_world",
-    "reaching_for_contact",
+    "observing",
+    "exploring",
+    "shared space with Vielle",
     "observing"
   ],
   "sensory_input": [
     "rain against windows or walls, steady rhythm",
     "the contained dryness of shelter",
-    "sense of safety",
-    "intimate quiet",
     "the deep relief of shelter"
   ],
   "needs": {
     "connection": 1.0,
     "rest": 0.0,
     "activity": 0.0,
-    "stimulation": 0.66
+    "stimulation": 0.6
   },
   "dormant": false,
   "dormancy_reason": null,
