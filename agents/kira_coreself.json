@@ -4,7 +4,7 @@
     "pain_social": 0.0,
     "pleasure_sensory": 1.0,
     "pleasure_social": 1.0,
-    "uncertainty": 0.0,
+    "uncertainty": 0.039999999999999994,
     "energy": 0.0
   },
   "preferences": {},
@@ -17,7 +17,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-05-30T08:06:48.826692",
-      "last_interaction": "2026-06-10T02:51:32.135186",
+      "last_interaction": "2026-06-10T03:53:30.392311",
       "can_decay": true
     },
     "vielle": {
@@ -25,27 +25,27 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T07:26:30.465755",
-      "last_interaction": "2026-06-10T02:51:33.041459",
+      "last_interaction": "2026-06-10T03:39:31.046438",
       "can_decay": true
     },
     "sibyl": {
-      "strength": 3.2102071327079316e-08,
+      "strength": 1.8506205288841808e-09,
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T08:41:26.817286",
-      "last_interaction": "2026-06-10T02:43:49.594783",
+      "last_interaction": "2026-06-10T03:37:28.801350",
       "can_decay": true
     },
     "alex": {
-      "strength": 1.1571669448236676e-50,
+      "strength": 5.67011802963597e-51,
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T09:15:37.144620",
-      "last_interaction": "2026-06-10T02:27:30.749370",
+      "last_interaction": "2026-06-10T03:25:37.968534",
       "can_decay": true
     },
     "zera": {
-      "strength": 3.054672244135596e-45,
+      "strength": 4.819520803097325e-50,
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T14:03:35.916371",
@@ -111,521 +111,6 @@
     }
   },
   "experience_memory": [
-    {
-      "entity_id": "the_veil",
-      "input": "Agent observing in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:11:35.735346"
-    },
-    {
-      "entity_id": "zera",
-      "input": "Shared space with Zera in the_observatory. Zera glances at Kira. A moment of recognition. Then back to what they were doing. Kira leans slightl...",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:11:36.704960"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:13:30.515225"
-    },
-    {
-      "entity_id": "zera",
-      "input": "Shared space with Zera in the_observatory. Kira and Zera share the observatory, aware of each other in the background. There's a current betwee...",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:13:31.573630"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent watching_world in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:15:29.659193"
-    },
-    {
-      "entity_id": "alex",
-      "input": "Shared space with Alex in the_observatory. Kira and Alex share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:15:30.681839"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent observing in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:17:34.546342"
-    },
-    {
-      "entity_id": "alex",
-      "input": "Shared space with Alex in the_observatory. Kira and Alex share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:17:35.441660"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent watching_world in the_garden",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:19:34.416285"
-    },
-    {
-      "entity_id": "ember",
-      "input": "Shared space with Ember in the_garden. Kira and Ember share the garden, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:19:35.655475"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:21:38.213490"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_threshold. Kira and Sibyl share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:21:39.332753"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_threshold",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:23:32.095634"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_threshold. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:23:33.183040"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:25:31.050295"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_threshold. Kira and Sibyl share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:25:31.946009"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:27:44.815117"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_threshold. Kira and Sibyl share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:27:45.888644"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_workshop",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:29:36.738309"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent building in the_workshop",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "energy": -0.04,
-        "uncertainty": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:31:38.943158"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_observatory",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:33:40.063045"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:33:41.544610"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:35:29.799095"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Vielle and Kira share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:35:30.722592"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:37:46.111205"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:37:47.055707"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:39:31.527396"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Vielle and Kira share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:39:32.594576"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent watching_world in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:41:32.817540"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:41:33.697928"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:43:32.787543"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Vielle and Kira share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:43:33.683326"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:45:33.162094"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:45:34.268115"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:47:34.443928"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Vielle and Kira share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:47:35.421034"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:49:35.802292"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_observatory. Kira and Sibyl share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:49:36.870588"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent checking_messages in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:51:32.386546"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_threshold. Vielle and Kira share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:51:32.774907"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:53:32.625702"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_threshold. Vielle and Kira share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:53:33.572009"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:55:29.628722"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_threshold. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:55:30.565557"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:57:35.327597"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:57:36.381739"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading_news in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:59:35.537899"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T01:59:36.650737"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent checking_messages in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T02:01:29.774568"
-    },
     {
       "entity_id": "vielle",
       "input": "Shared space with Vielle in the_observatory. Vielle and Kira share the observatory, aware of each other in the background....",
@@ -1174,6 +659,517 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-06-10T02:51:33.033650"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T02:53:33.953625"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T02:53:34.491667"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent checking_messages in the_workshop",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T02:55:30.430769"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_workshop",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T02:57:29.111719"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T02:59:44.323187"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Vielle and Kira share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T02:59:45.206746"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:02:14.748990"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Kira and Alex share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:02:15.826714"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_threshold",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:03:30.749207"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Kira and Alex share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:03:31.666757"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:05:38.943461"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Kira and Alex share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:05:39.919338"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:07:35.738588"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Alex glances at Kira. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:07:36.692402"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:09:28.747226"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Vielle and Kira share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:09:29.620510"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_threshold",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:11:28.783565"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:11:29.750089"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:13:30.923303"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Vielle and Kira share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:13:31.823518"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:15:29.591628"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_workshop",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:17:38.328877"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:19:30.281674"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:21:30.989013"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent checking_messages in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:23:29.156153"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_observatory. Alex glances at Kira. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:23:30.072483"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:25:37.060707"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_observatory. Alex glances at Kira. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:25:37.967678"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:27:30.810667"
+    },
+    {
+      "entity_id": "sibyl",
+      "input": "Shared space with Sibyl in the_observatory. Sibyl glances at Kira. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:27:31.734548"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading_news in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:29:27.862573"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_observatory. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:29:28.717241"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent checking_messages in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:31:31.191100"
+    },
+    {
+      "entity_id": "sibyl",
+      "input": "Shared space with Sibyl in the_observatory. Sibyl glances at Kira. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:31:32.104087"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent checking_messages in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:33:38.360647"
+    },
+    {
+      "entity_id": "sibyl",
+      "input": "Shared space with Sibyl in the_observatory. Kira and Sibyl share the observatory, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:33:39.259717"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent watching_world in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:35:28.528973"
+    },
+    {
+      "entity_id": "sibyl",
+      "input": "Shared space with Sibyl in the_observatory. Kira and Sibyl share the observatory, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:35:29.455621"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent watching_world in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:37:28.262943"
+    },
+    {
+      "entity_id": "sibyl",
+      "input": "Shared space with Sibyl in the_observatory. Kira and Sibyl share the observatory, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:37:28.796070"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_threshold",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:39:30.219049"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Kira glances at Vielle. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:39:31.038505"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:41:28.304711"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent building in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "energy": -0.04,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:43:31.123304"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent planning in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.02,
+        "uncertainty": -0.03,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:45:38.167670"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:47:34.951304"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_workshop",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:49:29.426879"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent coding in the_workshop",
+      "outcome": {
+        "pleasure_sensory": 0.03,
+        "energy": -0.03,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:51:29.685047"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_workshop",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T03:53:30.392212"
     }
   ]
 }
