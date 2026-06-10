@@ -5,30 +5,30 @@
   "activity": "waiting",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.75,
-    "tension": 0.75,
+    "arousal": 0.67,
+    "tension": 0.59,
     "temperature": 37.0,
-    "breathing": "deep"
+    "breathing": "rhythmic"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.42,
+    "arousal": 0.53,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-10T21:19:33.073325",
+  "last_updated": "2026-06-10T22:21:02.234686",
   "recent_actions": [
-    "reflecting",
-    "reaching_for_contact",
-    "observing",
-    "resting",
+    "shared space with Alex",
+    "watching_world",
+    "walking",
+    "waiting",
     "waiting"
   ],
   "sensory_input": [
-    "the in-between light, neither day nor night",
-    "storm pressing against the walls",
-    "distant thunder, felt in the chest",
+    "darkness surrounding",
+    "rain against windows or walls, steady rhythm",
+    "the contained dryness of shelter",
     "sense of safety",
     "intimate quiet",
     "the particular comfort of being inside while weather happens",
@@ -36,9 +36,9 @@
   ],
   "needs": {
     "connection": 1.0,
-    "rest": 0.0,
+    "rest": 0.04,
     "activity": 0.06,
-    "stimulation": 0.62
+    "stimulation": 0.64
   },
   "dormant": false,
   "dormancy_reason": null,
