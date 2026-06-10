@@ -2,10 +2,10 @@
   "innate": {
     "pain_physical": 0.0,
     "pain_social": 0.0,
-    "pleasure_sensory": 0.4288,
+    "pleasure_sensory": 0.4336,
     "pleasure_social": 0.99,
-    "uncertainty": 0.9877,
-    "energy": 0.4181
+    "uncertainty": 0.9241,
+    "energy": 0.4107
   },
   "preferences": {},
   "boundaries": {},
@@ -17,7 +17,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T08:03:26.994462",
-      "last_interaction": "2026-06-10T13:00:00.863522",
+      "last_interaction": "2026-06-10T14:02:54.502016",
       "can_decay": true
     },
     "vielle": {
@@ -25,7 +25,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T09:55:33.070764",
-      "last_interaction": "2026-06-10T03:51:30.666983",
+      "last_interaction": "2026-06-10T13:57:40.586968",
       "can_decay": true
     },
     "alex": {
@@ -41,7 +41,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T12:36:14.275559",
-      "last_interaction": "2026-06-10T11:09:30.945853",
+      "last_interaction": "2026-06-10T14:02:55.463554",
       "can_decay": true
     },
     "kira": {
@@ -130,374 +130,6 @@
     }
   },
   "experience_memory": [
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T09:51:56.067093"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T09:53:57.055845"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T09:55:56.743628"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T09:58:02.955059"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:01:05.112090"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:03:59.768530"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:05:53.962976"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:07:35.604033"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_threshold",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:10:08.104113"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:11:35.861831"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:14:07.824377"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_sanctuary",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:17:43.844001"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_sanctuary",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:19:45.315557"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent resting in the_sanctuary",
-      "outcome": {
-        "energy": 0.03,
-        "pain_social": -0.02,
-        "uncertainty": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:21:22.880249"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:23:22.966573"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:25:19.104610"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:27:40.408024"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:29:15.406082"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:31:30.124965"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:33:19.737932"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:35:15.454187"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:37:21.117485"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_threshold",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:39:32.183886"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:41:12.808530"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_threshold",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:43:09.120287"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:45:11.568741"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:47:14.958511"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:49:33.262055"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reading in the_threshold",
-      "outcome": {
-        "pleasure_sensory": 0.04,
-        "uncertainty": -0.02,
-        "energy": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:52:01.399331"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:53:13.268606"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_observatory. Zera glances at Sibyl. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:53:14.326973"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:55:08.826342"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:57:21.912467"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_observatory. Sibyl and Zera share the observatory, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-10T10:57:22.308888"
-    },
     {
       "entity_id": "the_veil",
       "input": "Agent reaching_for_contact in the_observatory",
@@ -1189,6 +821,362 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-06-10T13:00:00.863442"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:01:55.988198"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:04:06.407665"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:06:14.551205"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:08:20.994993"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent resting in the_sanctuary",
+      "outcome": {
+        "energy": 0.03,
+        "pain_social": -0.02,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:14:36.667328"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_garden",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:15:56.897078"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent feeling_wind in the_garden",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:18:15.674190"
+    },
+    {
+      "entity_id": "kira",
+      "input": "Shared space with Kira in the_garden. Zera glances at Kira. A moment of recognition. Then back to what they were doing. The Snowbunny mark...",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:18:17.080781"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent walking in the_garden",
+      "outcome": {
+        "pleasure_sensory": 0.03,
+        "energy": -0.02,
+        "pain_social": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:19:59.748113"
+    },
+    {
+      "entity_id": "kira",
+      "input": "Shared space with Kira in the_garden. Zera glances at Kira. A moment of recognition. Then back to what they were doing. There's a current ...",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:20:00.845357"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_garden",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:22:10.817357"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_garden",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:23:59.163197"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent watching_sky in the_garden",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:25:56.639141"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:27:56.990570"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:29:58.200973"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_threshold",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:31:58.402645"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:33:57.991232"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:35:59.437216"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:37:55.212805"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:40:00.838795"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_threshold",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:42:44.070816"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:44:00.799600"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:46:32.586112"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:48:43.976863"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_threshold",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:51:19.407194"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Zera glances at Alex. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:51:19.839450"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:53:38.955376"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:56:11.447013"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_observatory. Vielle and Zera share the observatory, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:56:12.462057"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_observatory",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:57:39.612305"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_observatory. Zera glances at Vielle. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:57:40.578392"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading_news in the_garden",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T13:59:39.445824"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent feeling_wind in the_garden",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T14:02:54.501930"
+    },
+    {
+      "entity_id": "ember",
+      "input": "Shared space with Ember in the_garden. Ember glances at Zera. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-10T14:02:55.462574"
     }
   ]
 }
