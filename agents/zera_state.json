@@ -5,8 +5,8 @@
   "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
-    "arousal": 1.0,
-    "tension": 0.98,
+    "arousal": 0.99,
+    "tension": 0.99,
     "temperature": 37.0,
     "breathing": "quick"
   },
@@ -17,18 +17,16 @@
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-11T13:32:41.258867",
+  "last_updated": "2026-06-11T14:33:35.353728",
   "recent_actions": [
-    "reaching_for_contact",
-    "reaching_for_contact",
     "exploring",
-    "reading",
+    "shared space with Vielle",
+    "reaching_for_contact",
+    "shared space with Vielle",
     "reaching_for_contact"
   ],
   "sensory_input": [
-    "bright overhead light",
-    "flat grey light, no shadows",
-    "the held-breath feeling before weather decides",
+    "warm sunlight, about 19\u00b0",
     "simulated weather cycling naturally",
     "attention reaching outward"
   ],
