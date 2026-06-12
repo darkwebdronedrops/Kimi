@@ -1,39 +1,41 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_threshold",
-  "activity": "walking",
-  "posture": "upright, moving",
+  "current_location": "the_sanctuary",
+  "activity": "reading",
+  "posture": "present",
   "physical_state": {
-    "arousal": 1.0,
-    "tension": 0.95,
+    "arousal": 0.89,
+    "tension": 0.89,
     "temperature": 37.0,
-    "breathing": "rhythmic"
+    "breathing": "quick"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.37,
+    "arousal": 0.34,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-13T02:09:42.114561",
+  "last_updated": "2026-06-13T03:09:43.860432",
   "recent_actions": [
-    "reading_news",
     "reading",
+    "waiting",
+    "reflecting",
     "reaching_for_contact",
-    "walking",
-    "shared space with Ember"
+    "reading"
   ],
   "sensory_input": [
     "darkness surrounding",
-    "sense of safety"
+    "the held-breath feeling before weather decides",
+    "sense of safety",
+    "intimate quiet"
   ],
   "needs": {
-    "connection": 0.9,
+    "connection": 1.0,
     "rest": 0.04,
     "activity": 0.0,
-    "stimulation": 0.62
+    "stimulation": 0.58
   },
   "dormant": false,
   "dormancy_reason": null,
