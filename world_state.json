@@ -64,7 +64,7 @@
   "weather": {
     "current": "clear",
     "previous": "overcast",
-    "temperature": 9,
+    "temperature": 11,
     "time_of_day": "night",
     "pattern": {
       "clear": {
