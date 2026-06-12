@@ -5,8 +5,8 @@
   "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
-    "arousal": 1.0,
-    "tension": 1.0,
+    "arousal": 0.89,
+    "tension": 0.89,
     "temperature": 37.0,
     "breathing": "quick"
   },
@@ -17,23 +17,25 @@
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-12T09:53:54.648357",
+  "last_updated": "2026-06-12T10:54:13.164585",
   "recent_actions": [
-    "shared space with Ember",
-    "reaching_for_contact",
-    "shared space with Ember",
-    "reaching_for_contact",
-    "shared space with Ember"
+    "shared space with Kira",
+    "exploring",
+    "checking_messages",
+    "checking_messages",
+    "reaching_for_contact"
   ],
   "sensory_input": [
-    "the held-breath feeling before weather decides",
-    "attention reaching outward"
+    "rain against windows or walls, steady rhythm",
+    "the contained dryness of shelter",
+    "attention reaching outward",
+    "the deep relief of shelter"
   ],
   "needs": {
-    "connection": 0.9,
+    "connection": 1.0,
     "rest": 0.24,
     "activity": 0.0,
-    "stimulation": 0.64
+    "stimulation": 0.68
   },
   "dormant": false,
   "dormancy_reason": null,
