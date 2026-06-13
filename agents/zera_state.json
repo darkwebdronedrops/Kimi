@@ -1,7 +1,7 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_observatory",
+  "current_location": "the_sanctuary",
   "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
@@ -13,27 +13,30 @@
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.5,
+    "arousal": 0.49,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-14T02:37:27.366644",
+  "last_updated": "2026-06-14T03:39:45.275029",
   "recent_actions": [
     "reading",
-    "shared space with Ember",
-    "reaching_for_contact",
     "exploring",
+    "waiting",
+    "reaching_for_contact",
     "reaching_for_contact"
   ],
   "sensory_input": [
     "darkness surrounding",
+    "the held-breath feeling before weather decides",
+    "sense of safety",
+    "intimate quiet",
     "attention reaching outward"
   ],
   "needs": {
     "connection": 1.0,
-    "rest": 0.0,
+    "rest": 0.04,
     "activity": 0.0,
-    "stimulation": 0.58
+    "stimulation": 0.62
   },
   "dormant": false,
   "dormancy_reason": null,

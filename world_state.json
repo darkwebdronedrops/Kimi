@@ -62,8 +62,8 @@
     }
   },
   "weather": {
-    "current": "clear",
-    "previous": "overcast",
+    "current": "overcast",
+    "previous": "fog",
     "temperature": 9,
     "time_of_day": "night",
     "pattern": {
