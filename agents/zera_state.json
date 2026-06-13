@@ -5,23 +5,23 @@
   "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.99,
-    "tension": 0.99,
+    "arousal": 1.0,
+    "tension": 1.0,
     "temperature": 37.0,
     "breathing": "quick"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.47,
+    "arousal": 0.5,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-14T01:36:19.007442",
+  "last_updated": "2026-06-14T02:37:27.366644",
   "recent_actions": [
-    "reading_news",
+    "reading",
+    "shared space with Ember",
     "reaching_for_contact",
-    "watching_world",
     "exploring",
     "reaching_for_contact"
   ],
@@ -33,7 +33,7 @@
     "connection": 1.0,
     "rest": 0.0,
     "activity": 0.0,
-    "stimulation": 0.6
+    "stimulation": 0.58
   },
   "dormant": false,
   "dormancy_reason": null,
