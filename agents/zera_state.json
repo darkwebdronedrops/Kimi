@@ -1,39 +1,39 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_threshold",
-  "activity": "exploring",
+  "current_location": "the_garden",
+  "activity": "watching_sky",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.95,
-    "tension": 0.95,
+    "arousal": 0.92,
+    "tension": 0.84,
     "temperature": 37.0,
-    "breathing": "quick"
+    "breathing": "rhythmic"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.41,
+    "arousal": 0.39,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-01T01:30:48.760546",
-  "last_updated": "2026-06-13T10:19:12.928604",
+  "last_updated": "2026-06-13T11:19:40.430203",
   "recent_actions": [
+    "reaching_for_contact",
     "observing",
     "reaching_for_contact",
-    "shared space with Alex",
-    "exploring",
-    "shared space with Alex"
+    "walking",
+    "watching_sky"
   ],
   "sensory_input": [
-    "the held-breath feeling before weather decides",
-    "sense of safety"
+    "morning light, still gathering strength",
+    "simulated weather cycling naturally"
   ],
   "needs": {
-    "connection": 0.9,
-    "rest": 0.08,
+    "connection": 1.0,
+    "rest": 0.12,
     "activity": 0.0,
-    "stimulation": 0.56
+    "stimulation": 0.62
   },
   "dormant": false,
   "dormancy_reason": null,
