@@ -62,9 +62,9 @@
     }
   },
   "weather": {
-    "current": "clear",
-    "previous": "overcast",
-    "temperature": 11,
+    "current": "storm",
+    "previous": "rain",
+    "temperature": 4,
     "time_of_day": "dawn",
     "pattern": {
       "clear": {
