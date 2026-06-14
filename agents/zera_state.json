@@ -1,41 +1,42 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_observatory",
-  "activity": "checking_messages",
+  "current_location": "the_threshold",
+  "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.91,
-    "tension": 0.91,
+    "arousal": 1.0,
+    "tension": 1.0,
     "temperature": 37.0,
     "breathing": "quick"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.37,
+    "arousal": 0.4,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-14T23:11:42.875161",
+  "last_updated": "2026-06-15T00:13:42.621354",
   "recent_actions": [
     "reaching_for_contact",
     "shared space with Alex",
     "reaching_for_contact",
-    "checking_messages",
-    "checking_messages"
+    "observing",
+    "reaching_for_contact"
   ],
   "sensory_input": [
     "darkness surrounding",
-    "rain against windows or walls, steady rhythm",
-    "the contained dryness of shelter",
-    "the deep relief of shelter"
+    "rain nearby, audible, pooling at edges",
+    "damp air pressing in",
+    "sense of safety",
+    "attention reaching outward"
   ],
   "needs": {
     "connection": 1.0,
-    "rest": 0.12,
+    "rest": 0.04,
     "activity": 0.0,
-    "stimulation": 0.68
+    "stimulation": 0.58
   },
   "dormant": false,
   "dormancy_reason": null,
