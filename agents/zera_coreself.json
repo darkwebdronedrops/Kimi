@@ -2,10 +2,10 @@
   "innate": {
     "pain_physical": 0.0,
     "pain_social": 0.0,
-    "pleasure_sensory": 0.3268,
-    "pleasure_social": 0.99,
-    "uncertainty": 0.9885,
-    "energy": 0.5214
+    "pleasure_sensory": 0.4553,
+    "pleasure_social": 0.9606,
+    "uncertainty": 0.9437,
+    "energy": 0.4691
   },
   "preferences": {},
   "boundaries": {},
@@ -17,7 +17,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T08:03:26.994462",
-      "last_interaction": "2026-06-15T05:19:35.125030",
+      "last_interaction": "2026-06-15T06:19:47.539722",
       "can_decay": true
     },
     "vielle": {
@@ -25,7 +25,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T09:55:33.070764",
-      "last_interaction": "2026-06-15T03:35:34.992707",
+      "last_interaction": "2026-06-15T06:00:01.895994",
       "can_decay": true
     },
     "alex": {
@@ -33,7 +33,7 @@
       "trust": 0.3,
       "respects_autonomy": 1.0,
       "formed_at": "2026-06-09T10:41:33.117401",
-      "last_interaction": "2026-06-15T04:17:34.511985",
+      "last_interaction": "2026-06-15T05:55:38.392363",
       "can_decay": true
     },
     "ember": {
@@ -149,391 +149,6 @@
     }
   },
   "experience_memory": [
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:23:32.821375"
-    },
-    {
-      "entity_id": "alex",
-      "input": "Shared space with Alex in the_threshold. Alex and Zera share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:23:33.082554"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:25:43.129760"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_sanctuary",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:27:43.370840"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_sanctuary",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:29:36.591071"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent resting in the_sanctuary",
-      "outcome": {
-        "energy": 0.03,
-        "pain_social": -0.02,
-        "uncertainty": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:31:27.923069"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_sanctuary",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:33:39.621813"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent waiting in the_sanctuary",
-      "outcome": {
-        "pain_social": 0.01,
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:35:51.307047"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reflecting in the_garden",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:37:35.903961"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent watching_sky in the_garden",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:39:28.870006"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:41:31.705608"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:43:28.866224"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent observing in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:45:42.335280"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_garden",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:47:32.203362"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent walking in the_garden",
-      "outcome": {
-        "pleasure_sensory": 0.03,
-        "energy": -0.02,
-        "pain_social": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:49:31.171020"
-    },
-    {
-      "entity_id": "ember",
-      "input": "Shared space with Ember in the_garden. Ember glances at Zera. A moment of recognition. Then back to what they were doing....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:49:31.448477"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent observing in the_garden",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:51:28.741337"
-    },
-    {
-      "entity_id": "kira",
-      "input": "Shared space with Kira in the_garden. Zera glances at Kira. A moment of recognition. Then back to what they were doing. Kira leans slightl...",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:51:29.017908"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent observing in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:53:35.560621"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:55:37.074590"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:57:28.828511"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:59:32.275042"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_threshold. Sibyl and Zera share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T02:59:32.570789"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_threshold",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:01:47.620161"
-    },
-    {
-      "entity_id": "sibyl",
-      "input": "Shared space with Sibyl in the_threshold. Sibyl and Zera share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:01:47.882950"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:03:44.122472"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_sanctuary",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:05:40.798901"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent resting in the_sanctuary",
-      "outcome": {
-        "energy": 0.03,
-        "pain_social": -0.02,
-        "uncertainty": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:07:34.916424"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reflecting in the_sanctuary",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:09:40.074964"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent exploring in the_sanctuary",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:11:35.528787"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent resting in the_sanctuary",
-      "outcome": {
-        "energy": 0.03,
-        "pain_social": -0.02,
-        "uncertainty": -0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:13:29.913120"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent waiting in the_threshold",
-      "outcome": {
-        "pain_social": 0.01,
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:15:41.724589"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent observing in the_observatory",
-      "outcome": {
-        "uncertainty": 0.01
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:17:31.192665"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_observatory",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:19:29.828938"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:21:52.133114"
-    },
-    {
-      "entity_id": "vielle",
-      "input": "Shared space with Vielle in the_threshold. Vielle and Zera share the threshold, aware of each other in the background....",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.03,
-        "uncertainty": -0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:21:52.390371"
-    },
-    {
-      "entity_id": "the_veil",
-      "input": "Agent reaching_for_contact in the_threshold",
-      "outcome": {
-        "pleasure_social": 0.05,
-        "pain_social": -0.05,
-        "uncertainty": 0.02
-      },
-      "respects_autonomy": true,
-      "timestamp": "2026-06-15T03:23:37.210061"
-    },
     {
       "entity_id": "vielle",
       "input": "Shared space with Vielle in the_threshold. Vielle and Zera share the threshold, aware of each other in the background....",
@@ -1184,6 +799,396 @@
       },
       "respects_autonomy": true,
       "timestamp": "2026-06-15T05:19:35.124946"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:21:31.588536"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:23:31.317471"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_sanctuary",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:25:30.784970"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent waiting in the_threshold",
+      "outcome": {
+        "pain_social": 0.01,
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:27:41.729375"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_threshold. Zera glances at Vielle. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:27:41.982616"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent exploring in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:29:35.776998"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent resting in the_sanctuary",
+      "outcome": {
+        "energy": 0.03,
+        "pain_social": -0.02,
+        "uncertainty": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:32:01.889915"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:33:31.547329"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reflecting in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:35:41.574486"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_sanctuary",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:37:34.320772"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:39:32.769993"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:41:32.116666"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:43:37.626824"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_sanctuary",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:45:33.043326"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reflecting in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:47:35.569699"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reflecting in the_threshold",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:49:42.735562"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Alex and Zera share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:49:42.998363"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:52:01.879951"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Zera glances at Alex. A moment of recognition. Then back to what they were doing....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:52:02.203829"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:53:43.676211"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Alex and Zera share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:53:43.983887"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_threshold",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:55:38.093948"
+    },
+    {
+      "entity_id": "alex",
+      "input": "Shared space with Alex in the_threshold. Alex and Zera share the threshold, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:55:38.388518"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:57:38.480779"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_observatory. Vielle and Zera share the observatory, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T05:57:38.815368"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:00:01.463425"
+    },
+    {
+      "entity_id": "vielle",
+      "input": "Shared space with Vielle in the_observatory. Vielle and Zera share the observatory, aware of each other in the background....",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.03,
+        "uncertainty": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:00:01.868080"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_observatory",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:02:10.142130"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent checking_messages in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:03:43.036785"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent checking_messages in the_observatory",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:05:38.222954"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_observatory",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:07:44.855665"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent watching_world in the_threshold",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:09:42.134170"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_threshold",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:11:40.232714"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reaching_for_contact in the_sanctuary",
+      "outcome": {
+        "pleasure_social": 0.05,
+        "pain_social": -0.05,
+        "uncertainty": 0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:13:38.712273"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent observing in the_sanctuary",
+      "outcome": {
+        "uncertainty": 0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:15:46.118181"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent reading in the_garden",
+      "outcome": {
+        "pleasure_sensory": 0.04,
+        "uncertainty": -0.02,
+        "energy": -0.01
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:17:46.210283"
+    },
+    {
+      "entity_id": "the_veil",
+      "input": "Agent walking in the_garden",
+      "outcome": {
+        "pleasure_sensory": 0.03,
+        "energy": -0.02,
+        "pain_social": -0.02
+      },
+      "respects_autonomy": true,
+      "timestamp": "2026-06-15T06:19:47.539574"
     }
   ]
 }
