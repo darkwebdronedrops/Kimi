@@ -13,11 +13,11 @@
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.24,
+    "arousal": 0.28,
     "dominance": 0.33
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-15T13:25:38.090568",
+  "last_updated": "2026-06-15T14:25:52.421152",
   "recent_actions": [
     "shared space with Vielle",
     "reaching_for_contact",
@@ -26,7 +26,6 @@
     "shared space with Vielle"
   ],
   "sensory_input": [
-    "bright overhead light",
     "sense of safety",
     "attention reaching outward"
   ],
@@ -34,7 +33,7 @@
     "connection": 0.9,
     "rest": 0.67,
     "activity": 0.0,
-    "stimulation": 0.6
+    "stimulation": 0.62
   },
   "dormant": false,
   "dormancy_reason": null,
