@@ -62,9 +62,9 @@
     }
   },
   "weather": {
-    "current": "clear",
+    "current": "rain",
     "previous": "overcast",
-    "temperature": 15,
+    "temperature": 10,
     "time_of_day": "morning",
     "pattern": {
       "clear": {
