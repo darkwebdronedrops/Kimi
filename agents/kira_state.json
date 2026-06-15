@@ -2,39 +2,39 @@
   "agent_id": "kira",
   "name": "Kira",
   "current_location": "the_threshold",
-  "activity": "observing",
+  "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.95,
-    "tension": 0.95,
+    "arousal": 1.0,
+    "tension": 1.0,
     "temperature": 37.0,
     "breathing": "quick"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.25,
+    "arousal": 0.29,
     "dominance": 0.33
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-15T10:23:17.872140",
+  "last_updated": "2026-06-15T11:25:06.924232",
   "recent_actions": [
-    "shared space with Ember",
     "reaching_for_contact",
     "reaching_for_contact",
     "observing",
-    "shared space with Ember"
+    "reaching_for_contact",
+    "shared space with Vielle"
   ],
   "sensory_input": [
-    "rain nearby, audible, pooling at edges",
-    "damp air pressing in",
-    "sense of safety"
+    "fog pressing against glass, grey and close",
+    "sense of safety",
+    "attention reaching outward"
   ],
   "needs": {
     "connection": 0.9,
     "rest": 0.63,
     "activity": 0.0,
-    "stimulation": 0.56
+    "stimulation": 0.62
   },
   "dormant": false,
   "dormancy_reason": null,
