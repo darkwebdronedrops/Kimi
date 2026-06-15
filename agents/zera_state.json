@@ -1,7 +1,7 @@
 {
   "agent_id": "zera",
   "name": "Zera",
-  "current_location": "the_garden",
+  "current_location": "the_threshold",
   "activity": "reaching_for_contact",
   "posture": "present",
   "physical_state": {
@@ -13,26 +13,27 @@
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.29,
+    "arousal": 0.34,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-15T19:29:53.653151",
+  "last_updated": "2026-06-15T20:31:39.728615",
   "recent_actions": [
-    "shared space with Sibyl",
     "reaching_for_contact",
-    "reflecting",
-    "observing",
+    "reaching_for_contact",
+    "exploring",
+    "reaching_for_contact",
     "reaching_for_contact"
   ],
   "sensory_input": [
-    "warm dim light",
-    "simulated weather cycling naturally",
+    "the in-between light, neither day nor night",
+    "the held-breath feeling before weather decides",
+    "sense of safety",
     "attention reaching outward"
   ],
   "needs": {
     "connection": 1.0,
-    "rest": 0.44,
+    "rest": 0.36,
     "activity": 0.0,
     "stimulation": 0.6
   },
