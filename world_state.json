@@ -63,8 +63,8 @@
   },
   "weather": {
     "current": "clear",
-    "previous": "storm",
-    "temperature": 18,
+    "previous": "overcast",
+    "temperature": 20,
     "time_of_day": "afternoon",
     "pattern": {
       "clear": {
