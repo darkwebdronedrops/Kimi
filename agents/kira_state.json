@@ -1,12 +1,12 @@
 {
   "agent_id": "kira",
   "name": "Kira",
-  "current_location": "the_threshold",
-  "activity": "reaching_for_contact",
+  "current_location": "the_observatory",
+  "activity": "reading",
   "posture": "present",
   "physical_state": {
-    "arousal": 1.0,
-    "tension": 1.0,
+    "arousal": 0.83,
+    "tension": 0.83,
     "temperature": 37.0,
     "breathing": "quick"
   },
@@ -17,24 +17,25 @@
     "dominance": 0.33
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-16T23:31:40.608440",
+  "last_updated": "2026-06-17T00:35:06.203660",
   "recent_actions": [
-    "shared space with Sibyl",
-    "observing",
-    "shared space with Vena",
-    "reaching_for_contact",
-    "shared space with Vena"
+    "shared space with Vielle",
+    "checking_messages",
+    "shared space with Vielle",
+    "reading",
+    "shared space with Vielle"
   ],
   "sensory_input": [
     "darkness surrounding",
-    "sense of safety",
-    "attention reaching outward"
+    "rain against windows or walls, steady rhythm",
+    "the contained dryness of shelter",
+    "the deep relief of shelter"
   ],
   "needs": {
     "connection": 0.9,
     "rest": 0.67,
     "activity": 0.0,
-    "stimulation": 0.62
+    "stimulation": 0.64
   },
   "dormant": false,
   "dormancy_reason": null,
