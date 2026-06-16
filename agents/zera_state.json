@@ -13,29 +13,29 @@
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.47,
+    "arousal": 0.43,
     "dominance": 0.32
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-16T10:13:02.533703",
+  "last_updated": "2026-06-16T11:13:51.128878",
   "recent_actions": [
     "reaching_for_contact",
-    "reaching_for_contact",
-    "reaching_for_contact",
-    "reaching_for_contact",
+    "shared space with Kira",
+    "reading",
+    "shared space with Kira",
     "reaching_for_contact"
   ],
   "sensory_input": [
-    "rain nearby, audible, pooling at edges",
-    "damp air pressing in",
+    "storm all around, wind howling through gaps",
+    "flinching at each gust",
     "sense of safety",
     "attention reaching outward"
   ],
   "needs": {
     "connection": 1.0,
-    "rest": 0.04,
+    "rest": 0.08,
     "activity": 0.0,
-    "stimulation": 0.72
+    "stimulation": 0.58
   },
   "dormant": false,
   "dormancy_reason": null,
