@@ -62,7 +62,7 @@
     }
   },
   "weather": {
-    "current": "fog",
+    "current": "overcast",
     "previous": "clear",
     "temperature": 10,
     "time_of_day": "dawn",
