@@ -1,40 +1,39 @@
 {
   "agent_id": "kira",
   "name": "Kira",
-  "current_location": "the_garden",
+  "current_location": "the_observatory",
   "activity": "observing",
   "posture": "present",
   "physical_state": {
-    "arousal": 0.81,
-    "tension": 0.81,
+    "arousal": 0.66,
+    "tension": 0.59,
     "temperature": 37.0,
-    "breathing": "quick"
+    "breathing": "slow"
   },
   "emotional_state": {
     "mood": "connected",
     "valence": 1.0,
-    "arousal": 0.16,
+    "arousal": 0.25,
     "dominance": 0.33
   },
   "last_human_contact": "2026-06-14T09:20:45.096230",
-  "last_updated": "2026-06-17T12:46:19.126104",
+  "last_updated": "2026-06-17T13:46:32.529007",
   "recent_actions": [
     "shared space with Vielle",
-    "reading",
+    "checking_messages",
     "shared space with Vielle",
     "observing",
     "shared space with Vielle"
   ],
   "sensory_input": [
     "bright overhead light",
-    "warm sunlight, about 20\u00b0",
-    "simulated weather cycling naturally"
+    "fog pressing against glass, grey and close"
   ],
   "needs": {
     "connection": 0.9,
-    "rest": 0.67,
+    "rest": 0.63,
     "activity": 0.0,
-    "stimulation": 0.56
+    "stimulation": 0.6
   },
   "dormant": false,
   "dormancy_reason": null,
